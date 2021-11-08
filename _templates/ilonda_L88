@@ -20,3 +20,16 @@ The value of 30 indicates a time period of 30 tenths of a second, or 3 seconds. 
 
 ![Wiring](/assets/images/ilonda_L88_wiring.jpg)
 ![Pinout](/assets/images/ilonda_L88_pinout.jpg)
+
+
+Adding a DS18B20 Temperature
+
+
+Tasmota Docs: https://tasmota.github.io/docs/DS18x20/
+Wired into the GPIO2
+
+template: {"NAME":"Feeder With DS18x20","GPIO":[0,0,1312,0,32,320,0,0,352,0,224,0,0,0],"FLAG":0,"BASE":18}
+
+
+
+
